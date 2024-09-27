@@ -1,0 +1,16 @@
+Hi Folks-
+
+Thanks for the add!  I've built a couple of nixie clocks, first one was in 2003 using B-5092 end view tubes scavenged from a non-working laboratory scalar.  I used an AT90S1200 microcontroller, which was a bit challenging since it has no RAM and thus all was in assembly language.  It keeps just OK time since it uses the on-chip oscillator.
+
+[2004 photo]
+
+Then I built a Kabtronics Nixie Transistor clock (http://tube-clock.com).  This was a bit of an adventure, though it did power up essentially trouble-free.  I'm curious if anyone here built one of these and what their experience has been?  The HV power supply died within a few weeks and after some fussing I replaced it
+with a little DC/DC board design I found on OshPark.  Then the power transformer failed (maybe the new HV supply drew too much current) so I replaced it with a higher-rated one from the same series.
+
+My main complaint now is that it loses the time when the power fails (of course) and setting is a real pain since there is no switch debouncing.  I'm thinking of adding a "self-set" with an ESP8266 to get the time over WiFi and reset the clock periodically.  The challenge is that there isn't any obvious way to hook a uC into this old-skool transistor logic circuit.
+
+I thought I'd post here just in case someone else has attempted anything similar, or has experience with the Kabtronics clock.
+
+[2013 photo]
+
+Happy Hacking!

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/ESP8266.pretty)(options "")(descr ""))
+  (lib (name ESP8266_git)(type KiCad)(uri /home/hazen/kicad/lib/kicad-ESP8266-master/ESP8266.pretty)(options "")(descr ""))
+)
