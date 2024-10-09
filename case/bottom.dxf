@@ -801,6 +801,10 @@ $PEXTMAX
  30
 0
   9
+$GRIDMODE
+ 70
+    1
+  9
 $SNAPSTYLE
  70
     0
@@ -1111,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-335.3172565014992
+288.1712981226533
  22
-42.37525768974989
+19.28488610763454
  13
 0
  23
@@ -1139,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-504.2041530910821
+451.2663349186483
  41
-1.829476248477466
+1.931623931623932
  42
 50
  43
@@ -2407,7 +2411,7 @@ Standard
  70
     0
  40
-1
+2.5
  41
 2.5
  42
@@ -2431,7 +2435,7 @@ Standard
 141
 0.09
 142
-2.5
+0
 143
 25.4
 144
@@ -2459,7 +2463,7 @@ Standard
  77
     0
  78
-    1
+    8
  79
     0
 170
@@ -2497,7 +2501,7 @@ Standard
 277
     2
 278
-    0
+   44
 279
     0
 280
@@ -2519,7 +2523,7 @@ Standard
 289
     3
 340
-standard
+STANDARD
 341
 
 371
@@ -4793,6 +4797,160 @@ AcDbCircle
  40
 2.25
   0
+CIRCLE
+  5
+A7
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+50.89999999999998
+ 20
+-292.8300000000001
+ 40
+2.25
+  0
+CIRCLE
+  5
+A8
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+127.1
+ 20
+-356.3300000000001
+ 40
+2.25
+  0
+CIRCLE
+  5
+A9
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+127.1
+ 20
+-292.8300000000001
+ 40
+2.25
+  0
+CIRCLE
+  5
+AA
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10
+ 20
+-10
+ 40
+2.25
+  0
+CIRCLE
+  5
+AB
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+270
+ 20
+-10
+ 40
+2.25
+  0
+CIRCLE
+  5
+AC
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+270
+ 20
+-370
+ 40
+2.25
+  0
+CIRCLE
+  5
+AD
+100
+AcDbEntity
+  8
+bottom_outsideCutPath
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+10
+ 20
+-370
+ 40
+2.25
+  0
 ENDSEC
   0
 SECTION
@@ -4825,7 +4983,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-A7
+AE
 100
 AcDbPlotSettings
   6
