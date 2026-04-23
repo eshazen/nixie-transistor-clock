@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "my_wifi") (type "KiCad") (uri "${KIPRJMOD}/my_wifi.pretty") (options "") (descr ""))
+	(lib (name "my_NPN") (type "KiCad") (uri "${KIPRJMOD}/my_NPN.pretty") (options "") (descr ""))
+)
