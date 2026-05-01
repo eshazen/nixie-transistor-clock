@@ -15,6 +15,15 @@ SW1 (minutes) - page 8/23 (PDF page 70)
 SW2 (Hours) - page 10/23 (PDF page 72)
 SW3 (s hold) - page 2/23 (PDF page 64)
 
+### 2026-04-29
+
+Confirm that ESP-01 works using FTDI at 115200 baud.
+<br>Problem is that hardware UART on 8MHz AVR is unreliable.
+<br>Downloaded https://github.com/nerdralph/picoUART
+<br>Tested on "control panel" PCB with FTDI and seems to work
+
+Starting to write some WiFi test code
+
 ### 2026-04-23
 
 Reviving the "set board" project.  Thinking of a new design with an
@@ -24,3 +33,4 @@ to retrieve the time from somewhere.
 
 The main issue may be poor wifi in the kitchen!
 
+ESP-01 doco at:  https://nurdspace.nl/ESP8266

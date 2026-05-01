@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "my_WWV")(type "KiCad")(uri "${KIPRJMOD}/my_WWV.pretty")(options "")(descr ""))
+)
