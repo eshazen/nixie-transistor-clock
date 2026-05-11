@@ -509,13 +509,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -703,7 +704,7 @@
         "uuid": "c1980bc9-cc73-4b12-bf5e-a245c9009914"
       }
     ],
-    "used_designators": "Q2-4",
+    "used_designators": "#PWR21,R18,C3",
     "variants": []
   },
   "sheets": [
