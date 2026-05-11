@@ -7,6 +7,7 @@ In 2013 I built a clock from a kit purchased here:  https://tube-clock.com/
 * set_board - start of a design to set the time using an ESP32
 * case - acrylic case design
 
+
 Some circuit analysis for setting remotely.
 
 Set switches (ref schematic in manual):
@@ -14,6 +15,23 @@ Set switches (ref schematic in manual):
 SW1 (minutes) - page 8/23 (PDF page 70)
 SW2 (Hours) - page 10/23 (PDF page 72)
 SW3 (s hold) - page 2/23 (PDF page 64)
+
+### 2026-05-11
+
+Based on Peter's claim that WWVB reception was ok at Deb's place,
+purchased a [Canaduino Atomic Clock](https://www.canaduino.ca/downloads/CANADUINO_Atomic_Clock_Receiver_Kit_V4.pdf)
+board and 3D printed a little holder for it.  It seems to work OK
+powered by 2xAA batteries in the kitchen.  Maybe at night it will work
+in a window?
+
+Per suggestion in the datasheet, thinking to connect with a shielded
+RJ-45 patch cable.  Re-do `set_board_avr` to accommodate the connector,
+and remove the 8MHz crystal and WiFi module.
+
+Should probably add a couple of buttons.
+
+Also, maybe need an additional small PCB for the WWVB board
+with jumpers for LED and power (choose between battery and remote power).
 
 ### 2026-04-29
 

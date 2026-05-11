@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "my_WWV")(type "KiCad")(uri "${KIPRJMOD}/my_WWV.pretty")(options "")(descr ""))
+  (lib (name "PCM_arduino-library")(type "KiCad")(uri "/home/hazen/work/arduino-kicad-library/footprints/arduino-library.pretty")(options "")(descr ""))
 )
