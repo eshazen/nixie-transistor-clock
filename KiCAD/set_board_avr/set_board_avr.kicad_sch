@@ -11899,7 +11899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 196.5452 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11932,7 +11932,7 @@
 				)
 			)
 		)
-		(property "CatNo" "399-ESH107M6R3AC3AA-ND"
+		(property "CatNo" "ESH107M010AC3AA"
 			(at 210.566 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
