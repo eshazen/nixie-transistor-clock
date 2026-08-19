@@ -2600,6 +2600,233 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BAV99"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Microchip_ATtiny:ATtiny4313-S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3853,6 +4080,12 @@
 		(uuid "c7446dff-e065-4897-9f64-75a6524e02b0")
 	)
 	(junction
+		(at 153.67 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "006d6748-1a75-44bb-b832-c75aafcd83af")
+	)
+	(junction
 		(at 252.73 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3863,6 +4096,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c8e3b1-90d1-4b82-99af-5498719d0fbe")
+	)
+	(junction
+		(at 153.67 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d194c3-de88-47f1-8810-0e0605ec539d")
+	)
+	(junction
+		(at 146.05 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "277052f2-1bab-4cfb-9c3b-25926ffb3993")
+	)
+	(junction
+		(at 180.34 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29facfcc-3cbd-4ef9-90b4-5ff99d123a09")
 	)
 	(junction
 		(at 252.73 143.51)
@@ -3877,10 +4128,10 @@
 		(uuid "3887e26f-8b8c-4091-8a58-4a144c1418a0")
 	)
 	(junction
-		(at 180.34 82.55)
+		(at 153.67 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "48281b79-7f31-4979-84af-b48d7a2a411a")
+		(uuid "593c5cc2-0ea8-468e-947c-f925b527ddb3")
 	)
 	(junction
 		(at 217.17 125.73)
@@ -3889,10 +4140,34 @@
 		(uuid "61ed7140-8707-453e-98f2-a706e492c695")
 	)
 	(junction
+		(at 161.29 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6444c7f3-a462-4994-a9af-0513dbf409b6")
+	)
+	(junction
 		(at 226.06 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b431875-61da-4010-ba38-7d83fceb2b21")
+	)
+	(junction
+		(at 153.67 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88356938-3dfd-455f-98f6-288f0b708f93")
+	)
+	(junction
+		(at 146.05 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "970fadf0-c31c-4e9f-a40c-1593a8ebbecf")
+	)
+	(junction
+		(at 146.05 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8e2ae9-4dfe-4440-bb4f-9f0f0d324187")
 	)
 	(junction
 		(at 58.42 149.86)
@@ -3919,22 +4194,34 @@
 		(uuid "c47e8ccc-0095-4813-b97c-92a9bfc0830f")
 	)
 	(junction
-		(at 180.34 120.65)
+		(at 180.34 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c487a3dd-e957-49ab-b159-8020996d2691")
-	)
-	(junction
-		(at 180.34 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c79c6f0b-ee1a-4028-aae2-a1a33167589c")
+		(uuid "c483ad2d-e945-42fe-a7cc-9188b34d735b")
 	)
 	(junction
 		(at 208.28 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7fb10f5-5961-456a-8b53-f145b83c1382")
+	)
+	(junction
+		(at 180.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da25dbd4-2eee-499f-9923-ea7abb7f42d6")
+	)
+	(junction
+		(at 161.29 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de17527e-d618-42a9-9923-9763a0604a1c")
+	)
+	(junction
+		(at 161.29 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1209210-bfde-47d3-8d91-ad456969ed14")
 	)
 	(junction
 		(at 66.04 22.86)
@@ -3955,16 +4242,16 @@
 		(uuid "f888044d-24c7-4adc-b4ab-a47b35e4797b")
 	)
 	(junction
-		(at 180.34 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f953033e-0c36-463f-9330-8cd85b1be5a2")
-	)
-	(junction
 		(at 30.48 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "feb55879-2b48-470c-96a5-50c7f984ded0")
+	)
+	(junction
+		(at 180.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fec28035-2588-4381-ada8-d9cb7e574c72")
 	)
 	(wire
 		(pts
@@ -3978,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 95.25) (xy 180.34 95.25)
+			(xy 139.7 95.25) (xy 153.67 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4048,16 +4335,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 82.55) (xy 147.32 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13cd068d-9e86-4674-85eb-e4e3fabe8c85")
-	)
-	(wire
-		(pts
 			(xy 252.73 146.05) (xy 252.73 151.13)
 		)
 		(stroke
@@ -4088,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 77.47) (xy 146.05 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a74f97d-965c-40ad-bec1-c26bdef4f942")
+	)
+	(wire
+		(pts
 			(xy 208.28 77.47) (xy 219.71 77.47)
 		)
 		(stroke
@@ -4098,7 +4385,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 95.25) (xy 158.75 95.25)
+			(xy 95.25 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4218,13 +4505,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 107.95) (xy 158.75 107.95)
+			(xy 92.71 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f7d31e6-b5b7-4baa-9d68-39f69919b27d")
+	)
+	(wire
+		(pts
+			(xy 161.29 77.47) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314edae8-d178-4c83-ba42-bc7aca2f7e9e")
 	)
 	(wire
 		(pts
@@ -4278,6 +4575,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 82.55) (xy 180.34 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3795eac5-2fbb-4ac9-83da-a0916c0a3f68")
+	)
+	(wire
+		(pts
+			(xy 161.29 90.17) (xy 161.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393e65f9-330c-42a2-a0d6-53cf09141c84")
+	)
+	(wire
+		(pts
 			(xy 154.94 19.05) (xy 91.44 19.05)
 		)
 		(stroke
@@ -4288,13 +4605,33 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 107.95) (xy 180.34 107.95)
+			(xy 139.7 107.95) (xy 153.67 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d1de312-27e3-414f-9e46-7ce1ad34b425")
+	)
+	(wire
+		(pts
+			(xy 153.67 120.65) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40209331-790e-4fb1-a3c1-4167bafbbb29")
+	)
+	(wire
+		(pts
+			(xy 146.05 102.87) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4040ff7b-f700-43d9-9f85-ee245aa7c68c")
 	)
 	(wire
 		(pts
@@ -4355,6 +4692,16 @@
 			(type default)
 		)
 		(uuid "4aab99b5-16a9-405b-b732-e416dc6f0c0a")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501138e5-6aec-4499-baa9-ceaab1a891b3")
 	)
 	(wire
 		(pts
@@ -4488,6 +4835,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 74.93) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70352873-4fac-4710-adab-509bdb6c7209")
+	)
+	(wire
+		(pts
 			(xy 180.34 107.95) (xy 187.96 107.95)
 		)
 		(stroke
@@ -4595,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "86d87d88-52aa-4afe-87a1-08b8a4c9e8fa")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8794a561-5563-413e-9c52-48476a5b95bc")
 	)
 	(wire
 		(pts
@@ -4788,13 +5155,23 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 120.65) (xy 180.34 120.65)
+			(xy 139.7 120.65) (xy 153.67 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2e6ddfc-eda3-4302-ac92-5fdc76b46244")
+	)
+	(wire
+		(pts
+			(xy 146.05 90.17) (xy 146.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33efda4-01a3-494f-97a5-7b194fa38d0b")
 	)
 	(wire
 		(pts
@@ -4848,7 +5225,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 52.07) (xy 99.06 91.44)
+			(xy 99.06 52.07) (xy 99.06 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4918,7 +5295,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 82.55) (xy 180.34 82.55)
+			(xy 139.7 82.55) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5048,6 +5425,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 115.57) (xy 146.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6883127-5f3a-436e-b3ec-38e7108b6c33")
+	)
+	(wire
+		(pts
 			(xy 81.28 77.47) (xy 120.65 77.47)
 		)
 		(stroke
@@ -5068,7 +5455,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 120.65) (xy 158.75 120.65)
+			(xy 90.17 120.65) (xy 124.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5108,7 +5495,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 91.44) (xy 99.06 91.44)
+			(xy 99.06 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5178,6 +5565,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 102.87) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e489f053-d5c8-41d9-9d7e-2644fdb77fa2")
+	)
+	(wire
+		(pts
 			(xy 81.28 54.61) (xy 93.98 54.61)
 		)
 		(stroke
@@ -5215,16 +5612,6 @@
 			(type default)
 		)
 		(uuid "e76deb41-6072-4a99-aadf-5455da9024cb")
-	)
-	(wire
-		(pts
-			(xy 147.32 82.55) (xy 147.32 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3d2b1f-03a6-4e3d-b4ca-cfd26f5358f7")
 	)
 	(wire
 		(pts
@@ -5325,6 +5712,16 @@
 			(type default)
 		)
 		(uuid "fce9275a-6ea7-4a6b-9277-5726cfe1c5b0")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd54ec0f-be7f-4a96-892c-bac85a5befe6")
 	)
 	(label "SCK"
 		(at 52.07 113.03 0)
@@ -6190,7 +6587,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 166.37 120.65 0)
+		(at 132.08 120.65 0)
 		(mirror y)
 		(unit 4)
 		(body_style 1)
@@ -6201,7 +6598,7 @@
 		(dnp no)
 		(uuid "1c971f21-efdc-4020-8af1-724947b3e921")
 		(property "Reference" "U4"
-			(at 166.37 112.5982 0)
+			(at 132.08 112.5982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6211,7 +6608,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 166.37 114.9096 0)
+			(at 132.08 114.9096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6221,7 +6618,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6232,7 +6629,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6651,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6265,7 +6662,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6276,7 +6673,7 @@
 			)
 		)
 		(property "CatNo" "488-MC74HC14ADR2G-QCT-ND"
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6287,7 +6684,7 @@
 			)
 		)
 		(property "MfgNo" "MC74HC14ADR2G-Q"
-			(at 166.37 120.65 0)
+			(at 132.08 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8891,6 +9288,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a52c6b6-148e-4a54-8a5a-234bc25a80c3")
+		(property "Reference" "#PWR036"
+			(at 167.64 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "924af0c0-d9af-4e7b-8e38-19b35af97187")
+		)
+		(instances
+			(project "set_board_avr"
+				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 110.49 161.29 90)
 		(unit 1)
@@ -9095,7 +9570,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 166.37 95.25 0)
+		(at 132.08 95.25 0)
 		(mirror y)
 		(unit 2)
 		(body_style 1)
@@ -9106,7 +9581,7 @@
 		(dnp no)
 		(uuid "720d5d5a-aa46-491f-bc1c-d0ce8cbac200")
 		(property "Reference" "U4"
-			(at 166.37 87.1982 0)
+			(at 132.08 87.1982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9116,7 +9591,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 166.37 89.5096 0)
+			(at 132.08 89.5096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9126,7 +9601,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9137,7 +9612,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9148,7 +9623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9159,7 +9634,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9170,7 +9645,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9181,7 +9656,7 @@
 			)
 		)
 		(property "CatNo" "488-MC74HC14ADR2G-QCT-ND"
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,7 +9667,7 @@
 			)
 		)
 		(property "MfgNo" "MC74HC14ADR2G-Q"
-			(at 166.37 95.25 0)
+			(at 132.08 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,6 +10915,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAV99")
+		(at 153.67 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99734d99-1dc9-4e20-89a6-3a45bfe6cacd")
+		(property "Reference" "D5"
+			(at 148.59 86.868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 158.242 86.868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 153.67 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CatNo" "4878-BAV99CT-ND"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "BAV99"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35206dd8-f25a-41fa-b3b1-6b6bd6075b30")
+		)
+		(pin "3"
+			(uuid "f6712c9b-aff4-4ea9-9fa1-9a03d521afa1")
+		)
+		(pin "1"
+			(uuid "4fa5c3ac-a0f7-422f-9a95-75c6c7ca823a")
+		)
+		(instances
+			(project "set_board_avr"
+				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN")
 		(at 179.07 60.96 0)
 		(unit 1)
@@ -10640,6 +11219,109 @@
 			(project "set_board_avr"
 				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 153.67 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a10c6a92-36f3-4ef4-acc6-6052aca140e3")
+		(property "Reference" "D4"
+			(at 148.59 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 158.242 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 153.67 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CatNo" "4878-BAV99CT-ND"
+			(at 171.196 79.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "BAV99"
+			(at 153.67 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a075e84a-5379-4a1b-9cd3-2cc8852a8370")
+		)
+		(pin "3"
+			(uuid "8d7c3302-7b35-4b29-aa1e-e8f3d8a2347e")
+		)
+		(pin "1"
+			(uuid "08ef3efb-b034-4e63-93e3-3153f2b3b9a9")
+		)
+		(instances
+			(project "set_board_avr"
+				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11164,7 +11846,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC14")
-		(at 166.37 82.55 0)
+		(at 132.08 82.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11175,7 +11857,7 @@
 		(dnp no)
 		(uuid "b518b257-8315-4c0c-920e-fd2385c44258")
 		(property "Reference" "U4"
-			(at 166.37 74.4982 0)
+			(at 132.08 74.4982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11185,7 +11867,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 166.37 76.8096 0)
+			(at 132.08 76.8096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11195,7 +11877,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11206,7 +11888,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11217,7 +11899,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11228,7 +11910,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11239,7 +11921,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11250,7 +11932,7 @@
 			)
 		)
 		(property "CatNo" "488-MC74HC14ADR2G-QCT-ND"
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11261,7 +11943,7 @@
 			)
 		)
 		(property "MfgNo" "MC74HC14ADR2G-Q"
-			(at 166.37 82.55 0)
+			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11504,8 +12186,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAV99")
+		(at 153.67 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bff99f1e-34e6-496b-8c07-2e4355821b32")
+		(property "Reference" "D6"
+			(at 148.59 99.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 158.242 99.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 153.67 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 153.67 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CatNo" "4878-BAV99CT-ND"
+			(at 153.67 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "BAV99"
+			(at 153.67 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f78989d3-26f4-4c46-8952-aedd09bf13c4")
+		)
+		(pin "3"
+			(uuid "bad029dc-e6d9-47f4-b48c-9a04ce63f71f")
+		)
+		(pin "1"
+			(uuid "725e9c6e-9e22-4db5-845b-f553853c5261")
+		)
+		(instances
+			(project "set_board_avr"
+				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 153.67 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3b88da6-5a02-4ab2-a110-f8ff4cbb6818")
+		(property "Reference" "D7"
+			(at 148.59 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 158.242 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 153.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CatNo" "4878-BAV99CT-ND"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "BAV99"
+			(at 153.67 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "918f1ea1-dc7c-4df4-a0d2-48065e3258b6")
+		)
+		(pin "3"
+			(uuid "85ee85ed-fc67-4f0d-9000-f59dda681b30")
+		)
+		(pin "1"
+			(uuid "4667136e-81a9-4f7a-b709-774921eec62c")
+		)
+		(instances
+			(project "set_board_avr"
+				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC14")
-		(at 166.37 107.95 0)
+		(at 132.08 107.95 0)
 		(mirror y)
 		(unit 3)
 		(body_style 1)
@@ -11516,7 +12406,7 @@
 		(dnp no)
 		(uuid "c7552ae6-aa20-4e5b-8b25-4f46e50f359e")
 		(property "Reference" "U4"
-			(at 166.37 99.8982 0)
+			(at 132.08 99.8982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11526,7 +12416,7 @@
 			)
 		)
 		(property "Value" "74HC14"
-			(at 166.37 102.2096 0)
+			(at 132.08 102.2096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11536,7 +12426,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11547,7 +12437,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11558,7 +12448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,7 +12459,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11580,7 +12470,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11591,7 +12481,7 @@
 			)
 		)
 		(property "CatNo" "488-MC74HC14ADR2G-QCT-ND"
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,7 +12492,7 @@
 			)
 		)
 		(property "MfgNo" "MC74HC14ADR2G-Q"
-			(at 166.37 107.95 0)
+			(at 132.08 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,6 +13046,83 @@
 			(project "set_board_avr"
 				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e189a819-11d5-4842-8bf8-01247364fe51")
+		(property "Reference" "#PWR031"
+			(at 146.05 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.098 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e400bab-c094-409c-9ce7-0281c30cc539")
+		)
+		(instances
+			(project "set_board_avr"
+				(path "/c1980bc9-cc73-4b12-bf5e-a245c9009914"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
